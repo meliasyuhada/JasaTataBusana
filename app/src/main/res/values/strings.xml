@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Jasa TataBusana</string>
+    <string name="beranda">Beranda</string>
+    <string name="jasa_pengguna">Jasa Pengguna</string>
+    <string name="pengaturan_akun">Pengaturan Akun</string>
+    <string name="profil">Profil</string>
+    <string name="logout">Logout</string>
+    <string name="nama_header">Nama di Header</string>
+    <string name="email_header">Email di Header</string>
+    <string name="image_header">Image Header</string>
+    <string name="fragment_beranda">Fragment Beranda</string>
+    <string name="fragment_jasa">Fragment Jasa</string>
+    <string name="fragment_profile">Fragment Profil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
