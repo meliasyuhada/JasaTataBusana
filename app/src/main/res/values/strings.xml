@@ -13,4 +13,51 @@
     <string name="fragment_profile">Fragment Profil</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    splash screen-->
+    <string name="icon_url">https://www.flaticon.com</string>
+
+    <!--    form login-->
+    <string name="judul_activity_login">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="judul_daftar">Tidak punya akun, <b>Daftar</b></string>
+    <string name="lupa_password">Lupa <b>password?></b></string>
+    <string name="atau_login">Atau login dengan</string>
+
+    <!--    Form Register-->
+    <string name="nama">Nama</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <array name="jenis_kelamin">
+        <item>Jenis Kelamin</item>
+        <item>Pria</item>
+        <item>Wanita</item>
+    </array>
+    <string name="no_hp">Nomor HP</string>
+    <string name="alamat">Alamat</string>
+    <string name="konfirmasi_password">konfirmasi Password</string>
+    <string name="submit">Submit</string>
+
+    <!--fragment profile-->
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="waktu_sesi">Waktu Sesi</string>
+    <string name="myname">Septi Melia</string>
+    <string name="mybirth">05 Mei 2001</string>
+    <string name="mygender">Wanita</string>
+    <string name="myphone">0813-6593-7141</string>
+    <string name="myaddres">Jl. Jepara, Selat baru Bengkalis - Riau</string>
+    <string name="myemail">meliasepti7@gmail.com</string>
+    <string name="mysession">09-10-2018 09:00:00</string>
+    <string name="edit_profil">Ubah Profil</string>
+    <string name="hapus_akun">Hapus Akun</string>
+
+    <!--form edit profile-->
+    <string name="judul_password">Silahkan kosongkan password, jika tidak mau mengubahnya!</string>
+
+    <!--jasa list-->
+    <string name="jasa_jahit_baju_keluarga">Jasa Jahit Baju Keluarga</string>
+    <string name="deskripsi_ringkas">Melayani jasa jahit baju keluarga laki-laki, perempuan, anak-anak dll</string>
+    <string name="rating">4</string>
+
 </resources>

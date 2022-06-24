@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="id.com.diaryme.meliasepti.jasatatabusana">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,15 +12,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JasaTataBusana">
         <activity
-            android:name=".MainActivity"
-            android:theme="@style/Theme.JasaTataBusana.NoActionBar"
-            android:exported="true">
+            android:name=".activities.EditProfileActivity"
+            android:label="Ubah Profile"
+            android:parentActivityName=".activities.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:exported="false"
+            android:label="Daftar Akun"
+            android:parentActivityName=".activities.LoginActivity" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="false"
+            android:theme="@style/Theme.JasaTataBusana.NoActionBar" />
+        <activity
+            android:name=".activities.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.JasaTataBusana.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.JasaTataBusana.NoActionBar" />
     </application>
 
 </manifest>
